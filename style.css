@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  color: bisque;
+  background: violet;
+}
+
+.input {
+  margin-left: 35%;
+  margin-right:35%;
+}
+
+#result {
+  text-align: center;
+  color: bisque;
+  background-color: violet;
+}

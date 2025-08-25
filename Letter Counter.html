@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="Letter Counter.js"></script>
+  </head>
+  <body>
+
+    <!-- Letter Counter -->
+    <div>
+      <h1>Letter Count</h1>
+      <div>
+        <input
+          class="input"
+          type="text"
+          id="inputText"
+          placeholder="Type your text here"
+          oninput="countLetters()"
+        />
+      </div>
+      <p id="result">Letter count: 0</p>
+    </div>
+    <hr />
+
+    <!-- Number + - -->
+    <div class="button">
+      <button onclick="decrease()">-</button>
+      <div id="charCount">0</div>
+      <button onclick="increase()">+</button>
+    </div>
+    <hr />
+
+    <!-- Swap Text -->
+    <div>
+      <input type="text" id="newInput" placeholder="Pessenger1" />
+      <input type="text" id="newInput2" placeholder="Pessenger2" />
+      <button onclick="swapText()">SwapText</button>
+    </div>
+    <hr />
+
+    <!-- To-Do List -->
+
+    <div>
+      <input type="text" id="todoInput" placeholder="Add a new task" />
+      <button onclick="addTask()">Add Task</button>
+      <ul id="todoList"></ul>
+    </div>
+  </body>
+</html>
