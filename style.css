@@ -1,16 +1,46 @@
+.body {
+  background-color: cornflowerblue ;
+  font-style:normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section {
+  border: 1;
+  border-color: black;
+  padding: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 h1 {
   text-align: center;
   color: bisque;
-  background: violet;
+  background: rgb(0, 0, 0);
 }
 
 .input {
-  margin-left: 35%;
-  margin-right:35%;
+  display: flex;
+  justify-content: center;
+}
+
+.swap {
+  display: flex;
+  justify-content: center;
+  object-fit:fill;
+  
 }
 
 #result {
   text-align: center;
   color: bisque;
-  background-color: violet;
+  background-color: rgb(0, 0, 0);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
 }

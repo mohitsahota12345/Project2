@@ -53,3 +53,19 @@ function addTask() {
     document.getElementById("todoInput").value = "";
   }
 }
+
+function clearTasks() {
+  document.getElementById("todoList").innerHTML = "";
+}
+ 
+function updateTask() {
+  let list = document.getElementById("todoList");
+  let items = list.getElementsByTagName("li");
+ 
+  if (items.length > 0) {
+    let newTask = prompt("Update task:", items[0].innerHTML);
+    if (newTask) {
+      items[0].innerHTML = newTask;
+    }
+  }
+}
